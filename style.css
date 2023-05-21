@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&family=Playfair+Display:wght@400;500;700;900&family=Roboto:wght@300;500;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  max-width: 1440px;
+  max-height: 1024px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+}
+.container {
+  width: 78%;
+  height: 100%;
+  margin: 89px 11.4583%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* **  estilos seccion de header */
+
+.contain-header {
+  width: 100%;
+  margin-bottom: 61px;
+}
+
+.contain-header .contain-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contain-header .contain-navbar .contain-menu {
+  display: flex;
+  list-style: none;
+}
+
+.contain-header .contain-navbar .contain-menu a {
+  text-decoration: none;
+  padding-left: 2.5rem;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+/* estilos contenido main */
+
+.contain-main {
+  width: 100%;
+  height: 511px;
+  display: grid;
+  grid-template-columns: 65.76% 2.7% 31.6%;
+
+  margin-bottom: 71px;
+}
+
+.main-left {
+  width: 100%;
+  height: 100%;
+}
+
+.main-left .main-left-botton {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 183px;
+}
+
+.contain-main .main-left .main-left-botton .main-left-botton-titulo {
+  padding-right: 1rem;
+  height: 183px;
+}
+
+.contain-main .main-left .main-left-botton .main-left-botton-titulo h2 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 56px;
+}
+
+.contain-main .main-left .main-left-botton .left-botton-parrafo {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contain-main .main-left .main-left-botton .left-botton-parrafo p {
+  font-size: 0.94rem;
+  font-weight: 400;
+  color: #fffdfa;
+  line-height: 26px;
+  color: #5e607a;
+}
+
+.contain-main .main-left .main-left-botton .left-botton-parrafo button {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #fffdfa;
+  background-color: #f15d51;
+  width: 11.6rem;
+  height: 3rem;
+  border: none;
+  letter-spacing: 4.38px;
+}
+
+.main-left .img-main {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 28px;
+  /* overflow: hidden; */
+}
+
+.main-left .img-main img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.main-left .main-left-botton {
+  width: 100%;
+  height: 183px;
+}
+
+.main-center {
+  background-color: #fffdfa;
+}
+
+.main-right {
+  background-color: #00001a;
+  width: 100%;
+  padding: 32px 7.2% 31px 7.2%;
+  color: #fffdfa;
+  /* margin-bottom: 34px; */
+}
+
+.main-right h1 {
+  margin: 0 0 34px 0;
+  color: #e9aa52;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.main-right .content-right {
+  width: 100%;
+  height: 374px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-right .line {
+  width: 100%;
+  height: 1px;
+  background-color: #5e607a;
+}
+
+.main-right .parrafo h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.25rem;
+  line-height: 24px;
+  margin-bottom: 8px;
+  color: #fffdfa;
+}
+.main-right .parrafo p {
+  font-weight: 400px;
+  font-size: 0.9rem;
+  line-height: 26px;
+  color: #c5c6ce;
+}
+
+/* ******************************************** */
+
+.contain-section {
+  width: 100%;
+  height: 127px;
+
+  display: grid;
+
+  grid-template-columns: 65.76% 2.7% 31.6%;
+}
+
+.section-left {
+  width: 100%;
+  height: 127px;
+  display: flex;
+}
+
+.section-center {
+  background-color: #fffdfa;
+}
+
+.contain-section .item {
+  width: 50%;
+  display: flex;
+}
+
+.contain-section .section-content {
+  width: 62%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 5%;
+}
+
+.contain-section .section-content h2 {
+  font-size: 2rem;
+  line-height: 32px;
+  font-weight: 700;
+  color: #c5c6ce;
+  margin-bottom: 12px;
+}
+.contain-section .section-content h3 {
+  font-weight: 800px;
+  font-size: 1.12rem;
+  line-height: 24px;
+}
+
+.contain-section .section-content p {
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 26px;
+  color: #5e607a;
+}
+
+.contain-section .item img {
+  width: 100px;
+  margin-right: 1.5rem;
+}
+
+.section-right {
+  width: 100%;
+  height: 127px;
+}
+
+.contain-section .section-right .item img {
+  width: 100px;
+  height: 127px;
+}
+
+.contain-section .section-right .section-content {
+  width: 100%;
+  height: 127px;
+  margin: 0;
+}
+.contain-section .section-right .item {
+  width: 100%;
+}
